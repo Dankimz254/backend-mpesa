@@ -1,0 +1,23 @@
+
+# Flex Accounts M-Pesa Backend
+
+This backend receives Safaricom M-Pesa STK Push callbacks.
+
+## Render deployment
+
+Build command:
+npm install
+
+Start command:
+npm start
+
+## Callback URL
+
+https://YOUR-RENDER-URL.onrender.com/api/mpesa/callback
+
+## Health check
+
+Open your Render URL in a browser.
+
+You should see:
+Flex Accounts M-Pesa callback backend is running.
